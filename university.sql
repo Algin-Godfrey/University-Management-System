@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `collage` (
   `Coll_ID` int(11) NOT NULL,
   `Coll_Type` varchar(50) DEFAULT NULL,
-  `Coll_Desc` varchar(255) DEFAULT NULL
+  `Coll_Desc` varchar(255) DEFAULT NUL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
